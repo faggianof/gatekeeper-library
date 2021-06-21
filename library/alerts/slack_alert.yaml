@@ -3,5 +3,5 @@ json_output: true
 …
 program_output:
   enabled: true
-  program: "jq '{text: .output}' | curl -d @- -X POST https://hooks.slack.com/services/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"
+  program: "jq '{text: .output}' | curl -d @- -X POST https://hooks.slack.com/services/add-your-webhook-address"
 
